@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import os, sys, hashlib, re, json, dateutil.parser, pytz
+# sudo pip3 install python-dateutil
+# sudo pip3 install pytz
 local_timezone = pytz.timezone('Asia/Seoul')
 
 def is_safe_name(fn): #qq
