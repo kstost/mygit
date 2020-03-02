@@ -296,7 +296,7 @@ if len(sys.argv) == 2:
 				rmItem(hp+'/'+ll)
 
 	if sys.argv[1] == 'commiting':
-		rest = shell_exec('git add *; git commit -m "fixed"; git push -u origin master;')
+		rest = shell_exec('git add .; git commit -m "fixed"; git push -u origin master;')
 		mKey = ''
 		rest = rest.strip().split('\n')
 		if len(rest) > 0:
