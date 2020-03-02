@@ -1,3 +1,0 @@
-# mygit
-ggg
-3
